@@ -14,7 +14,7 @@ diceEl.classList.add("hidden");
 
 let score, currentScore, activePlayer, playing;
 
-// Testing-Fetching-testing1
+// Testing-Fetching-test2
 
 const init = function () {
   score = [0, 0];

@@ -14,7 +14,7 @@ diceEl.classList.add("hidden");
 
 let score, currentScore, activePlayer, playing;
 
-// Test-3 case1
+// Test-3 fetch-test-case
 
 const init = function () {
   score = [0, 0];

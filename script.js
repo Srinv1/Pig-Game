@@ -14,7 +14,7 @@ diceEl.classList.add("hidden");
 
 let score, currentScore, activePlayer, playing;
 
-// Test-3 case1
+// Test-3 srinv
 
 const init = function () {
   score = [0, 0];

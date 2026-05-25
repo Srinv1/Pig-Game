@@ -49,6 +49,8 @@ btnRoll.addEventListener("click", function () {
     const dice = Math.trunc(Math.random() * 6) + 1;
     console.log(dice);
 
+    // lets see the diff
+
     // dice shown
     diceEl.classList.remove("hidden");
     diceEl.src = `dice-${dice}.png`;

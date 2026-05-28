@@ -14,7 +14,7 @@ diceEl.classList.add("hidden");
 
 let score, currentScore, activePlayer, playing;
 
-// Testing-Fetching-testing 2
+// Testing-Fetching-testing 3
 
 const init = function () {
   score = [0, 0];
@@ -48,6 +48,8 @@ btnRoll.addEventListener("click", function () {
     //   random dice num
     const dice = Math.trunc(Math.random() * 6) + 1;
     console.log(dice);
+
+    // lets see the diff
 
     // dice shown
     diceEl.classList.remove("hidden");
